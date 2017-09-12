@@ -1,0 +1,30 @@
+{
+  "name": "express-easy-captcha",
+  "version": "1.0.0",
+  "description": "An express client for easy-captcha",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choelea/express-easy-captcha.git"
+  },
+  "keywords": [
+    "captcha"
+  ],
+  "author": "joe.lea@foxmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choelea/express-easy-captcha/issues"
+  },
+  "homepage": "https://github.com/choelea/express-easy-captcha#readme",
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "object-assign": "^4.1.1"
+  }
+}
